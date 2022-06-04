@@ -1,0 +1,44 @@
+/* Hero */
+.section-main {
+    padding-top: 200px;
+    padding-bottom: 200px;
+
+    text-align: center;
+    background-color: var(--primary-bg-color);
+}
+
+.section-main__title {
+    margin-bottom: 40px;
+
+    font-weight: 900;
+    font-size: 44px;
+    line-height: 1.36;
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: var(--spec-color);
+
+}
+
+/* Фон */
+.overlay {
+    max-width: 1600px;
+    height: 600px;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: linear-gradient(rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url(../images/Fon.jpg);
+}
+
+/* All Section  */
+
+.section-title {
+    margin-bottom: 50px;
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: var(--primary-text-color);
+}
